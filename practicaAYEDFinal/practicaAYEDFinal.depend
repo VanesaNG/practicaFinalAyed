@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1752707088 source:c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\lista.c
+1753322058 source:c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\lista.c
 	<stdio.h>
 	<stdlib.h>
 	"lista.h"
 
-1752707075 source:c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\main.c
+1753299662 source:c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\main.c
 	<stdio.h>
 	<stdlib.h>
 	"nodo.h"
@@ -17,6 +17,6 @@
 
 1752703930 c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\nodo.h
 
-1752706034 c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\lista.h
+1753299698 c:\users\usuario\desktop\algoritmo y estructura de datos\ayed\practicaayedfinal\lista.h
 	"nodo.h"
 

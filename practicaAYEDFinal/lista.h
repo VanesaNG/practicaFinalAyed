@@ -34,6 +34,10 @@ int eliminarposicicon(ListaPtr lista); //tarea
 int obtenerTamanio(ListaPtr lista); //tarea
 
 void ordenarListaBurbuja(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr));//tarea
+void ordenarListaInsercion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr));
+void ordenarListaSeleccion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr));
+
+
 ListaPtr ordenarListaCopia(ListaPtr lista);//tarea
 ListaPtr duplicarLista(ListaPtr lista);//tarea
 

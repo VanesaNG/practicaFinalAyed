@@ -116,3 +116,10 @@ void ordenarListaBurbuja(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr)){     
 
 };
 
+void ordenarListaInsercion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr)){
+
+}
+
+void ordenarListaSeleccion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr)){
+
+}

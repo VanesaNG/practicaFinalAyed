@@ -123,3 +123,20 @@ void ordenarListaInsercion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr)){
 void ordenarListaSeleccion(ListaPtr lista, int(*comparar)(DatoPtr, DatoPtr)){
 
 }
+
+int busquedaSecuencial(ListaPtr lista, DatoPtr dato, int(*comparar)(DatoPtr, DatoPtr)){
+    NodoPtr actual = lista->primero;
+    int encontrado = -1;
+    if(actual!=NULL){
+        int tam = obtenerTamanio(lista);
+            for(int i=1; i<=tam; i++){
+                if(comparar(getDato(actual), dato)==1){
+                    encontrado = i;
+                    return encontrado;
+                }
+                actual = getSiguiente(actual);
+            }
+    }
+    return encontrado;
+}
+

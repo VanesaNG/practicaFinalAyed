@@ -44,6 +44,8 @@ ListaPtr duplicarLista(ListaPtr lista);//tarea
 int buscarElemento(ListaPtr lista, DatoPtr datoBuscado);//tarea
 
 void insertarEnOrden(ListaPtr lista, DatoPtr dato);
+
+int busquedaSecuencial(ListaPtr lista, DatoPtr dato, int(*comparar)(DatoPtr, DatoPtr));
 //tarea, si la lista está ordenada cada vez que
 //se inserta se inserta en la posición que corresponda
 
